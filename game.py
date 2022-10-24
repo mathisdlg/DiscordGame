@@ -8,9 +8,12 @@ module game for programer's discord server
 class Player:
     """
     Player:
+        - name
+        - Classe
+        - Race
 
     """
-    def __init__(self, p_name):
+    def __init__(self, p_name, Classe, Race):
         self.name = p_name
     
     def __str__(self) -> str:
