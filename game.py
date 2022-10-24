@@ -13,8 +13,10 @@ class Player:
         - Race
 
     """
-    def __init__(self, p_name, Classe, Race):
+    def __init__(self, p_name, classe, race):
         self.name = p_name
+        self.classe = classe
+        self.race = race
     
     def __str__(self) -> str:
         return self.name
@@ -40,8 +42,8 @@ class Objet:
         - baton de mage
         - 
     """
-    def __init__(self):
-        pass
+    def __init__(self, objet_name):
+        self.objet_name = objet_name
 
 
 
@@ -52,6 +54,8 @@ class Job:
         - Journaliste
         - 
     """
+    def __init__(self, job_name):
+        self.job_name = job_name
 
 
 
@@ -64,8 +68,8 @@ class Classe:
         - Gerrier
         - 
     """
-    def __init__(self):
-        pass
+    def __init__(self, classe_name):
+        self.classe_name = classe_name
 
 
 
@@ -77,8 +81,8 @@ class Race:
         - Nain
         - 
     """
-    def __init__(self):
-        pass
+    def __init__(self, race_name):
+        self.race_name = race_name
 
 
 
