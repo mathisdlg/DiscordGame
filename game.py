@@ -11,12 +11,23 @@ class Player:
         - name
         - Classe
         - Race
+        - Level
+        - Statistics:
+            - PV
+            - PM
+            - Strenght
+            - Agility
+            - intelligence
+            - Wisdom
+            - Luck
 
     """
     def __init__(self, p_name, classe, race):
         self.name = p_name
         self.classe = classe
         self.race = race
+        self.level = 0
+        self.stats = {"PV": 100, "PM": 100, "STR": 1, "AG": 1, "INT": 1, "WIS": 1, "LUK": 1}
     
     def __str__(self) -> str:
         return self.name
@@ -52,6 +63,8 @@ class Objet:
         - Potion de doppleganger
         - Potion de PM
         - 
+    Bonus stat:
+        - 
     """
     def __init__(self, objet_name):
         self.objet_name = objet_name
@@ -65,6 +78,8 @@ class Job:
         - Journaliste
         - Programmers
         - Gamer
+        - 
+    Bonus stat:
         - 
     """
     def __init__(self, job_name):
@@ -81,6 +96,9 @@ class Classe:
         - Gerrier
         - Prêtre
         - 
+    
+    Bonus stat:
+        - 
     """
     def __init__(self, classe_name):
         self.classe_name = classe_name
@@ -95,6 +113,8 @@ class Race:
         - Nain
         - Sang-mélée
         - Vampires
+        - 
+    Bonus stat:
         - 
     """
     def __init__(self, race_name):
