@@ -33,13 +33,24 @@ class Player:
 class Objet:
     """
     Objet:
-        - épée
-        - bague
-        - katana
-        - livre
-        - casque
-        - armure
-        - baton de mage
+        - Epée
+        - Bague
+        - Katana
+        - Livre
+        - Casque
+        - Armure
+        - Baton de mage
+        - Anneau de souhat
+        - Arc
+        - Baguette
+        - Armure
+        - Bouclier
+        - Bottes
+        - Champagne
+        - Chapeau
+        - Potion de vie
+        - Potion de doppleganger
+        - Potion de PM
         - 
     """
     def __init__(self, objet_name):
@@ -52,6 +63,8 @@ class Job:
     Job:
         - Professeur
         - Journaliste
+        - Programmers
+        - Gamer
         - 
     """
     def __init__(self, job_name):
@@ -66,6 +79,7 @@ class Classe:
         - Prètre
         - Mage
         - Gerrier
+        - Prêtre
         - 
     """
     def __init__(self, classe_name):
@@ -79,6 +93,8 @@ class Race:
         - Humain
         - Elfe
         - Nain
+        - Sang-mélée
+        - Vampires
         - 
     """
     def __init__(self, race_name):
