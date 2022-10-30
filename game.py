@@ -103,6 +103,7 @@ class Classe:
         - Mage
         - Gerrier
         - Prêtre
+        - Healer
         - 
     
     Bonus stat:
