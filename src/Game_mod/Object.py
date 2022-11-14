@@ -23,5 +23,5 @@ class Object:
     Bonus stat:
         - 
     """
-    def __init__(self, objet_name, ):
+    def __init__(self, objet_name, rarity):
         self.objet_name = objet_name
