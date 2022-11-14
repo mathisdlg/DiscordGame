@@ -1,7 +1,8 @@
 import discord
 import time
 from discord.ext import commands
-import src.game as game
+from src.Game_mod import *
+
 
 
 if __name__ == "__main__":
