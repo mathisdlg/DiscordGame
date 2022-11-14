@@ -1,7 +1,7 @@
 import random
 
 """
-module game for prog(r)amer's discord server
+module game for prog(r)amer's discord bot server
 """
 
 
