@@ -1,6 +1,8 @@
 # Programmers
 
-## Extension for the **programmers's** discord bot
+## Extension for **The Pro G(r)@mers's** discord bot
+
+![Icon of the pro G(r)@mers](/assets/images/icon_programmers.jpg)
 
 -------------------------------------------
 
