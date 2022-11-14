@@ -1,14 +1,14 @@
 import discord
 import time
 from discord.ext import commands
-import game
+import src.game as game
 
 
 if __name__ == "__main__":
     
     intents = discord.Intents.all()
     config = {
-        'token': 'MTAzMTg0OTgzOTYxMDMxMDY3Ng.GwO-Cj.QG0GSImSdqbW-h3r1k4Ik7-2pp6-pQygJznGoo',
+        'token': open("token.key", 'r').read(),
         'prefix': '$',
         'intents': intents,
         'name': 'Sparky gamers',
