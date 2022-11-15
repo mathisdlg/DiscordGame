@@ -51,10 +51,6 @@ This project work with the main and the library what I wrote
 - Object name
 - Rarity of the object
 
-### Class Job
-
-- Job name
-
 ### Class Class
 
 - Class name
