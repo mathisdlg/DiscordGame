@@ -38,6 +38,14 @@ This project work with the main and the library what I wrote
 - Stat point
 - Stats
 
+> - PV
+> - PM
+> - Strenght
+> - Agility
+> - Intelligence
+> - Wisdom
+> - Luck
+
 ### Class Object
 
 - Object name
