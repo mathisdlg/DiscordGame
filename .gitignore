@@ -41,5 +41,8 @@ pip-delete-this-directory.txt
 htmlcov/
 .tox/
 
-#key
+# key
 *.key
+
+# vscode
+.vscode
