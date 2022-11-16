@@ -1,22 +1,32 @@
-CLASS_LIST = ["Thief", "Priest", "Mage", "Figther", "Healer", "Paladin", "Ranger", "Druid", "Black Mage", "Labyrinths Master"]
+CLASS_LIST = ["Thief", "Priest", "Mage", "Figther", "Paladin", "Ranger", "Druid", "Black Mage", "Labyrinths Master", "Berserker", "Assasin", "Bard", "Cleric", "Hunter", "Villager", "Beast Master", "Artificer", "Craftsman", "Alchemist", "Wizard"]
 
 class Class:
     """
-    Classe:
+    Class:
         - Thief
         - Priest
         - Mage
         - Figther
-        - Healer
         - Paladin
         - Ranger
         - Druid
         - Black Mage
         - Labyrinths Master
-        - 
-    
+        - Berserker
+        - Assasin
+        - Bard
+        - Cleric
+        - Hunter
+        - Villager
+        - Beast Master
+        - Artificer
+        - Craftsman
+        - Alchemist
+        - Wizard
+
     Bonus stat:
         - 
     """
+
     def __init__(self, classe_name):
         self.classe_name = classe_name
