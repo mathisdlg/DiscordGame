@@ -1,13 +1,17 @@
-RACE_LIST = ["Humain", "Elve", "Dwarf", "Vampire"]
+RACE_LIST = ["Humain", "Elve", "Dwarf", "Vampire", "Fairy", "Leprechaun", "Daemon", "Orc", "Halfelin"]
 
 class Race:
     """
     Race:
         - Humain
-        - Elfe
-        - Nain
-        - Sang-mélée
+        - Elve
+        - Dwarf
         - Vampires
+        - Fairy
+        - Leprechaun
+        - Daemon
+        - Orc
+        - Halfelin
         - 
     Bonus stat:
         - 

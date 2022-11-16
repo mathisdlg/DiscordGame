@@ -3,12 +3,16 @@ CLASS_LIST = ["Thief", "Priest", "Mage", "Figther", "Healer", "Paladin", "Ranger
 class Class:
     """
     Classe:
-        - Voleur
-        - Prètre
+        - Thief
+        - Priest
         - Mage
-        - Gerrier
-        - Prêtre
+        - Figther
         - Healer
+        - Paladin
+        - Ranger
+        - Druid
+        - Black Mage
+        - Labyrinths Master
         - 
     
     Bonus stat:
