@@ -1,7 +1,7 @@
 import discord
 import time
 from discord.ext import commands
-from src.Game_mod import *
+from Game import *
 
 
 
