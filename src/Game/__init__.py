@@ -1,1 +1,1 @@
-__all__ = ["Player", "Class", "Race", "Object"]
+__all__ = ["Player", "Class", "Race", "Object",  "Database", "Skill"]
