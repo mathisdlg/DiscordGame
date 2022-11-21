@@ -1,3 +1,5 @@
+SKILL_LIST = []
+
 class Skill:
     """
     Skill:
