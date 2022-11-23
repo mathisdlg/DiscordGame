@@ -1,20 +1,51 @@
-from Game import *
-
-def test():
-    len_class = len(Class.CLASS_LIST)
-    len_race = len(Race.RACE_LIST)
-    print(f"Nombre de possibilité (choix classe x  race): {len_race*len_class}")
-    pass
-
-def load_all_combine(CL, RL):
-    i = 0
-    for class_ in CL:
-        for race_ in RL:
-            print(f"A {race_} of class: {class_}")
-            i+=1
-    return i
+from Test import *
 
 
-if __name__ == "__main__":
-    print(load_all_combine(Class.CLASS_LIST, Race.RACE_LIST))
-    test()
+
+if __name__ == '__main__':
+    db = GameDB()
+    db.connect("donnes/db.pickle")
+
+    Player_list = []
+    Player_list = db.load()
+    
+    Name_list = generate_list_name(Player_list)
+    print("Hello, World!")
+    
+    clear_output()
+
+    while True:
+        choose = int(input("\n[1] - New character\n[2] - Remove a character\n[3] - Save changes\n[4] - Load Player\n[5] - Print all player\n[8] - See all Class Race combination\n[9] - Exit\n"))
+
+        if choose == 1:
+            add_player(Player_list, Player_list)
+
+        elif choose == 2:
+            if suppr_player(Name_list, Player_list) == 0:
+                print("Player has been deleted\n")
+            else:
+                print("Error: Player cannot be found\n")
+
+        elif choose == 3:
+            db.save(Player_list)
+            print("Player saved!")
+
+        elif choose == 4:
+            Player_list = db.load()
+            print("Player load!")
+
+        elif choose == 5:
+            print_all_player(Player_list)
+        
+        elif choose == 6:
+            pass
+
+        elif choose == 8:
+            print_all_player(Player_list)
+
+        elif choose == 9:
+            print("Exit...")
+            db.disconnect()
+            break
+
+    print("Goodbye!")
