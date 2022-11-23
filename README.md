@@ -58,3 +58,9 @@ This project work with the main and the library what I wrote
 ### Class Race
 
 - Race name
+
+### Class Skill
+
+- Skill name
+
+### Class Database
