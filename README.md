@@ -27,10 +27,6 @@ This project work with the main and the library what I wrote
 
 > - Name choose by the player (or hes discord name)
 
-- Uuid
-
-> - Auto attribute with the uuid python module
-
 - Class
 - Race
 - Level
