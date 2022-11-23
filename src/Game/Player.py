@@ -40,11 +40,26 @@ class Player:
         self.stat_point += nb
     
     def say_hello(self, p_hello):
-        print("Hello {}".format(p_hello))
+        print(f"Hello {p_hello.name}")
         return 0
+
+    ########################################################
+    #                   Get method                         #
+    def get_name(self):
+        return self.name
     
-    def save_player(self):
-        pass
+    def get_class(self):
+        return self.classe
     
-    def load_player(self):
-        pass
+    def get_race(self):
+        return self.race
+    
+    def get_level(self):
+        return self.level
+    
+    def get_stat_point(self):
+        return self.stat_point
+    
+    def get_stats(self):
+        return self.stats
+    ########################################################
