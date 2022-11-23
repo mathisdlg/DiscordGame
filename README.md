@@ -16,7 +16,6 @@ This project work with the main and the library what I wrote
 - discord module
 - game module
 - time module
-- uuid module
 
 -------------------------------------------
 
