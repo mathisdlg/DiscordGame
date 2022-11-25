@@ -37,10 +37,9 @@ def print_player(Player:Player):
     print(f"Player: {Player.get_name()} is level is {Player.get_level()} and he have {Player.get_stat_point()} stat points\n")
 
 def print_all_player(Player_list):
-    nb_player = len(Player_list)
     for Player in Player_list:
         print_player(Player)
-    return nb_player
+    return len(Player_list)
 
 def generate_list_name(player_list):
     return [player.name for player in player_list]
