@@ -12,7 +12,7 @@ class GameDB:
         if exists(file_name):
             self.pick = open(file_name, "r+b")
         else:
-            self.pick = open(file_name, "wb+")
+            self.pick = open(file_name, "x+b")
             self.save([])
     
     def save(self, object):
