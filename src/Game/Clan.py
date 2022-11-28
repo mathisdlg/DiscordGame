@@ -1,5 +1,7 @@
 from Game.Player import Player
 
+STATE_LIST = ["opened", "closed", "invited", "complet"]
+
 class Clan:
     
     def __init__(self, name:str, master:Player):
@@ -34,5 +36,13 @@ class Clan:
     def remove_player(self, player:Player):
         if player in self.list_players:
             self.list_players.remove(player)
+            return 0
         else:
-            return 1
+            return 2
+        
+    def set_state(self, state):
+        if state in STATE_LIST:
+            self.state = state
+            return 0
+        else: 
+            return 3
