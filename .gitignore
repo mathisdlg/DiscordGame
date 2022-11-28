@@ -48,4 +48,4 @@ htmlcov/
 .vscode
 
 # database
-.pickle
+*.pickle
