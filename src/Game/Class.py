@@ -36,12 +36,5 @@ class Class:
         - 
     """
 
-    def __init__(self):
-        pass
-    
-    def set_class(self, class_):
-        if class_ in CLASS_LIST:
-            self.class_name = class_
-            return 0
-        else:
-            return 1
+    def __init__(self, class_name):
+        self.class_name = class_name
