@@ -21,11 +21,39 @@ This project work with the main and the library what I wrote
 
 ## game.py
 
+### Clan
+
+- Name of the clan
+
+> - Name choose by the master of the clan
+
+- Master
+
+> - Player who owns the clan
+
+- Experience of the clan
+
+> - Experience depending on play time and clan quests
+
+- Level
+
+> - In function with the experience
+> - Unlock new object, more places in the clan or other things
+
+- Places
+
+> - Number of places in the clan
+> - Set at 11 for the master and 10 friends
+
+- PLayers list
+
+> - List of the players of the clan master include
+
 ### Class Player
 
 - Name of the player
 
-> - Name choose by the player (or hes discord name)
+> - Name choose by the player (or his discord name)
 
 - Class
 - Race
@@ -59,3 +87,5 @@ This project work with the main and the library what I wrote
 - Skill name
 
 ### Class Database
+
+### Return tabel [here](assets/Return/Return_table.md)
