@@ -17,6 +17,7 @@ class Player:
             - Intelligence
             - Wisdom
             - Luck
+        - clan
 
     """
     def __init__(self, p_name, classe: Class, race: Race):
@@ -26,6 +27,7 @@ class Player:
         self.level = 0
         self.stat_point = 0
         self.stats = {"PV": 100, "PM": 10, "STR": 1, "AG": 1, "INT": 1, "WIS": 1, "LUK": 1}
+        clan = None
     
     def __str__(self) -> str:
         return self.name
@@ -42,6 +44,7 @@ class Player:
     def say_hello(self, p_hello):
         print(f"Hello {p_hello.name}")
         return 0
+
 
     ########################################################
     #                   Get method                         #
@@ -62,4 +65,15 @@ class Player:
     
     def get_stats(self):
         return self.stats
+    
+    def get_clan(self):
+        return self.clan
+    ########################################################
+
+
+    ########################################################
+    #                   Set method                         #
+    def set_clan(self, clan_name):
+        self.clan = clan_name
+        return 0
     ########################################################
