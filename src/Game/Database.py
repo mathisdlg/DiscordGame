@@ -6,7 +6,7 @@ class GameDB:
 
     def __init__(self):
         """
-        Database constructor game's database of ##Game name##
+        ##Game name##'s  database
         """
         pass
     
@@ -27,11 +27,12 @@ class GameDB:
     
     def load(self):
         self.pick.seek(0)
-        tmp = pickle.load(self.pick)
-        return tmp
+        list_players = pickle.load(self.pick)
+        return list_players
         
     def disconnect(self):
         self.pick.close()
+        return 0
 
 
 if __name__ == "__main__":
