@@ -4,7 +4,7 @@ from Test import *
 
 if __name__ == '__main__':
     db = GameDB()
-    db.connect("donnes/db.pickle")
+    db.connect("db.pickle")
 
     Player_list = []
     Player_list = db.load()
@@ -20,7 +20,7 @@ if __name__ == '__main__':
         clear_output()
         
         if choose == 1:
-            add_player(Player_list, Player_list)
+            add_player(Name_list, Player_list)
 
         elif choose == 2:
             if suppr_player(Name_list, Player_list) == 0:
@@ -31,7 +31,7 @@ if __name__ == '__main__':
 
         elif choose == 3:
             db.save(Player_list)
-            print("Player saved!")
+            print("Changes saved!")
             input("Press in enter to continue...")
 
         elif choose == 4:

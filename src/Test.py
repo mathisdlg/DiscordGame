@@ -21,12 +21,13 @@ def add_player(Name_list, Player_list):
     class_chooser = choose_class()
     race_chooser = choose_race()
 
+    Name_list.append(name)
     Player_list.append(Player(name, Class(class_chooser), Race(race_chooser)))
 
 def suppr_player(name_list, Player_list):
     player_name = input("Enter a player name: ")
     if player_name not in name_list:
-        return -1
+        return 1
     else:
         del Player_list[name_list.index(player_name)]
         name_list.remove(player_name)
@@ -42,7 +43,7 @@ def print_all_player(Player_list):
     return len(Player_list)
 
 def generate_list_name(player_list):
-    return [player.name for player in player_list]
+    return [player.get_name() for player in player_list]
 
 
 def clear_output():

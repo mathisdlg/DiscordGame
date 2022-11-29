@@ -1,4 +1,5 @@
 from os.path import exists
+from os import mkdir
 import pickle
 
 
@@ -11,13 +12,15 @@ class GameDB:
         pass
     
     def connect(self, file_name):
-        if exists(file_name):
-            self.pick = open(file_name, "r+b")
-            return 0
+        if exists("donnes"):
+            if exists("donnes/"+file_name):
+                self.pick = open("donnes/"+file_name, "r+b")
+                return 0
         else:
-            self.pick = open(file_name, "x+b")
-            self.save([])
-            return 1
+            mkdir("donnes") 
+        self.pick = open("donnes/"+file_name, "w+b")
+        self.save([])
+        return 1
     
     def save(self, object):
         self.pick.seek(0)
