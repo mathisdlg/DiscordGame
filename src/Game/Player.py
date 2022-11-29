@@ -1,5 +1,6 @@
 from Game.Class import Class
 from Game.Race import Race
+from Game.Player import Player
 
 class Player:
     """
@@ -76,4 +77,10 @@ class Player:
     def set_clan(self, clan_name):
         self.clan = clan_name
         return 0
+    
+    def set_stats(self, stats):
+        pass #TODO
     ########################################################
+    
+    def duel(self, opponent:Player, type):
+        pass #TODO
