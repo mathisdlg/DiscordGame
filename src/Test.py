@@ -48,9 +48,9 @@ def generate_list_name(player_list):
 
 def clear_output():
     if name == 'nt':
-        _ = system('cls')
+        system('cls')
     else:
-        _ = system('clear')
+        system('clear')
 
 def load_all_combine(CL, RL):
     i = 0
