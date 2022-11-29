@@ -59,8 +59,3 @@ def load_all_combine(CL, RL):
             print(f"A {race_} of class: {class_}")
             i+=1
     return i
-
-def number_of_possibilities():
-    len_class = len(CLASS_LIST)
-    len_race = len(RACE_LIST)
-    print(f"Nombre de possibilité (choix classe x race): {len_race*len_class}")
