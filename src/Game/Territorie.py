@@ -1,2 +1,4 @@
-from Game.Arena import Arena
-from Game.Village import Village
+class Territorie:
+    
+    def __init__(self):
+        pass
