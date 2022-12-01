@@ -1,6 +1,5 @@
 from Game.Class import Class
 from Game.Race import Race
-from Game.Player import Player
 
 class Player:
     """
@@ -82,5 +81,5 @@ class Player:
         pass #TODO
     ########################################################
     
-    def duel(self, opponent:Player, type):
+    def duel(self, opponent, type):
         pass #TODO
