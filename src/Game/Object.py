@@ -25,3 +25,16 @@ class Object:
     """
     def __init__(self, objet_name, rarity):
         self.objet_name = objet_name
+
+
+class Sword(Object):
+    
+    def __init__(self, objet_name, rarity):
+        Object.__init__(self, objet_name, rarity)
+        self.range = "Melee"
+
+
+class Ego():
+    
+    def __init__(self):
+        pass
