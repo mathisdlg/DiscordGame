@@ -1,4 +1,4 @@
-CLASS_LIST = ["Thief", "Priest", "Mage", "Figther", "Paladin", "Ranger", "Druid", "Black Mage", "Labyrinths Master", "Berserker", "Assasin", "Bard", "Cleric", "Hunter", "Villager", "Beast Master", "Artificer", "Craftsman", "Alchemist", "Wizard"]
+CLASS_LIST = ["Thief", "Priest", "Mage", "Figther", "Paladin", "Ranger", "Druid", "Black Mage", "Labyrinths Master", "Berserker", "Assasin", "Bard", "Cleric", "Hunter", "Villager", "Beast Master", "Artificer", "Craftsman", "Alchemist", "Wizard", "Bettor", "Dragon Slayer"]
 
 
 def choose_class():
@@ -31,16 +31,28 @@ class Class:
         - Craftsman
         - Alchemist
         - Wizard
-
-    Bonus stat:
-        - 
+        - Bettor
+        - Dragon Slayer
+        
     """
 
-    def __init__(self, class_name):
-        self.class_name = class_name
+    def __init__(self):
+        pass
 
-    ########################################################
-    #                   Get method                         #
-    def get_class_name(self):
-        return self.class_name
-    ########################################################
+
+class Thief(Class):
+    
+    def __init__(self):
+        self.class_name = "Thief"
+        self.bonus_stat = [] #TODO
+        self.special_skill = [] #TODO
+        self.side = "darkness"
+
+
+class Paladin(Class):
+    
+    def __init__(self):
+        self.class_name = "Paladin"
+        self.bonus_stat = [] #TODO
+        self.special_skill = [] #TODO
+        self.side = "light"
