@@ -27,3 +27,8 @@ class Race:
     """
     def __init__(self, race_name):
         self.race_name = race_name
+
+class Humain(Race):
+    
+    def __init__(self):
+        pass
