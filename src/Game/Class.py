@@ -36,23 +36,28 @@ class Class:
         
     """
 
-    def __init__(self):
-        pass
+    def __init__(self, name, side):
+        self.class_name = name
+        self.side = side
 
 
 class Thief(Class):
     
     def __init__(self):
         self.class_name = "Thief"
+        self.side = "darkness"
         self.bonus_stat = [] #TODO
         self.special_skill = [] #TODO
-        self.side = "darkness"
+        
+        Class().__init__(self.class_name, self.side)
 
 
 class Paladin(Class):
     
     def __init__(self):
         self.class_name = "Paladin"
+        self.side = "light"
         self.bonus_stat = [] #TODO
         self.special_skill = [] #TODO
-        self.side = "light"
+        
+        Class().__init__(self.class_name, self.side)
