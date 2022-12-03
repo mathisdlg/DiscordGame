@@ -11,6 +11,10 @@ This project work with the main and the library what I wrote
 
 -------------------------------------------
 
+Work with Python 3.10.8
+
+-------------------------------------------
+
 ## main.py
 
 - discord module
