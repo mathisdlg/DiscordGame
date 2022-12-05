@@ -22,11 +22,11 @@ class Race:
         - Robot
         - Cyborg
         - 
-    Bonus stat:
-        - 
     """
     def __init__(self, race_name):
         self.race_name = race_name
+        self.race_level = 0
+
 
 class Humain(Race):
     
