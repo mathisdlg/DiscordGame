@@ -33,12 +33,12 @@ class Class:
         - Wizard
         - Bettor
         - Dragon Slayer
-        
+        - 
     """
-
     def __init__(self, name, side):
         self.class_name = name
         self.side = side
+        self.class_level = 0
 
 
 class Thief(Class):
