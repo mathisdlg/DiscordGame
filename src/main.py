@@ -1,17 +1,16 @@
 import discord
-import time
 from discord.ext import commands
+import time
 from Game import *
 
 
 
 if __name__ == "__main__":
     
-    intents = discord.Intents.all()
     config = {
         'token': open("token.key", 'r').read(),
         'prefix': '$',
-        'intents': intents,
+        'intents': discord.Intents.all(),
         'name': 'Sparky gamers',
         'discriminator': '1852',
     }
