@@ -65,8 +65,8 @@ Work with Python 3.10.8
 - Stat point
 - Stats
 
-> - PV
-> - PM
+> - HP
+> - MP
 > - Strenght
 > - Agility
 > - Intelligence

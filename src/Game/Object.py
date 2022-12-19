@@ -1,25 +1,24 @@
 class Object:
     """
     Objet:
-        - Epée
-        - Bague
-        - Katana
-        - Livre
-        - Casque
-        - Armure
-        - Baton de mage
-        - Anneau de souhat
-        - Arc
-        - Baguette
-        - Armure
-        - Bouclier
-        - Bottes
-        - Champagne
-        - Chapeau
-        - Potion de vie
-        - Potion de doppleganger
-        - Potion de PM
-        - 
+        - Sword                     (Weapon)
+        - Ring                      (Armor)
+        - Katana                    (Weapon)
+        - Book                      (Armor)
+        - Helmet                    (Armor)
+        - Armor                     (Armor)
+        - mage staff                (Weapon)
+        - wish ring                 (Object)
+        - Bow                       (Weapon)
+        - Baguette                  (Weapon)
+        - Shield                    (Weapon)
+        - Boots                     (Armor)
+        - Champagne                 (Object)
+        - Hat                       (Armor)
+        - potion of life            (Object)
+        - doppleganger potion       (Object)
+        - HP Potion                 (Object)
+        - MP Potion                 (Object)
     Bonus stat:
         - 
     """
