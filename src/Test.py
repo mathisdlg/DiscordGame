@@ -1,6 +1,5 @@
 from Game.Class import Class, CLASS_LIST, choose_class
 from Game.Race import Race, RACE_LIST, choose_race
-from Game.Database import GameDB
 from Game.Player import Player
 from Game.Skill import Skill
 
