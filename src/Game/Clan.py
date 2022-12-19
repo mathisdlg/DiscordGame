@@ -25,10 +25,10 @@ class Clan:
         return self.level
     
     def _get_place(self):
-        return self.place
+        return self.places
     
     def get_free_place(self):
-        return self._get_place - len(self.list_players)
+        return self._get_place() - len(self.list_players)
     
     def get_list_players(self):
         return self.list_players
