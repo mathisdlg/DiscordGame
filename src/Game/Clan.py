@@ -9,7 +9,7 @@ class Clan:
         self.master = master
         self.experince = 0
         self.level = 0
-        self.places = 11
+        self.placesMax = 11
         self.list_players = [master]
     
     def get_name(self):
@@ -25,7 +25,7 @@ class Clan:
         return self.level
     
     def _get_place(self):
-        return self.places
+        return self.placesMax
     
     def get_free_place(self):
         return self._get_place() - len(self.list_players)
@@ -36,7 +36,7 @@ class Clan:
     def add_player(self, player:Player):
         if player in self.list_players:
             return 1
-        elif player.get_clan() != None:
+        elif player.get_clan() == None:
             self.list_players.append(player)
             player.set_clan(self.name)
             return 0
