@@ -1,4 +1,4 @@
-CLASS_LIST = ["Thief", "Priest", "Mage", "Figther", "Paladin", "Ranger", "Druid", "Black Mage", "Labyrinths Master", "Berserker", "Assasin", "Bard", "Cleric", "Hunter", "Villager", "Beast Master", "Artificer", "Craftsman", "Alchemist", "Wizard", "Bettor", "Dragon Slayer"]
+CLASS_LIST = ['Thief', 'Priest', 'Mage', 'Figther', 'Paladin', 'Ranger', 'Druid', 'Black Mage', 'Labyrinths Master', 'Berserker', 'Assassin', 'Bard', 'Cleric', 'Hunter', 'Villager', 'Beast Master', 'Artificer', 'Craftsman', 'Alchemist', 'Wizard', 'Bettor', 'Dragon Slayer', 'Blacksmith', 'Necromancer', 'Warlock', 'Elementalist', 'Ninja', 'Monk', 'Crusader', 'Demolitionist']
 
 
 def choose_class():
@@ -11,53 +11,7 @@ def choose_class():
 class Class:
     """
     Class:
-        - Thief
-        - Priest
-        - Mage
-        - Figther
-        - Paladin
-        - Ranger
-        - Druid
-        - Black Mage
-        - Labyrinths Master
-        - Berserker
-        - Assasin
-        - Bard
-        - Cleric
-        - Hunter
-        - Villager
-        - Beast Master
-        - Artificer
-        - Craftsman
-        - Alchemist
-        - Wizard
-        - Bettor
-        - Dragon Slayer
-        - 
     """
-    def __init__(self, name, side):
+    def __init__(self, name):
         self.class_name = name
-        self.side = side
         self.class_level = 0
-
-
-class Thief(Class):
-    
-    def __init__(self):
-        self.class_name = "Thief"
-        self.side = "darkness"
-        self.bonus_stat = [] #TODO
-        self.special_skill = [] #TODO
-        
-        Class().__init__(self.class_name, self.side)
-
-
-class Paladin(Class):
-    
-    def __init__(self):
-        self.class_name = "Paladin"
-        self.side = "light"
-        self.bonus_stat = [] #TODO
-        self.special_skill = [] #TODO
-        
-        Class().__init__(self.class_name, self.side)
