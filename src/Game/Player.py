@@ -12,8 +12,10 @@ class Player:
         - Statistics:
             - HP
             - MP
-            - Strenght
+            - Strength
+            - Defense
             - Agility
+            - Dodge
             - Intelligence
             - Wisdom
             - Luck
