@@ -17,8 +17,8 @@ def choose_name(Name_list):
 def add_player(Name_list, Player_list):
     name = choose_name(Name_list)
             
-    class_chooser = choose_class()
     race_chooser = choose_race()
+    class_chooser = choose_class()
 
     Name_list.append(name)
     Player_list.append(Player(name, Class(class_chooser), Race(race_chooser)))
