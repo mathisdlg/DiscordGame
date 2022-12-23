@@ -14,7 +14,7 @@
 |Return Code |Description|
 |--- | --- |
 
-## Return table of [Database](../../src/Game/Database.py)
+## Return table of [Database](../../src/Game/Database/Database.py)
 
 |Return Code |Description|
 |--- | --- |
