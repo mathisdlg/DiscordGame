@@ -22,18 +22,8 @@ class Object:
     Bonus stat:
         - 
     """
-    def __init__(self, objet_name, rarity):
+    def __init__(self, objet_name: str, rarity: str, rangeatk: int, ego: bool):
         self.objet_name = objet_name
-
-
-class Sword(Object):
-    
-    def __init__(self, objet_name, rarity):
-        Object.__init__(self, objet_name, rarity)
-        self.range = "Melee"
-
-
-class Ego():
-    
-    def __init__(self):
-        pass
+        self.rarity = rarity
+        self.range = rangeatk
+        self.ego = ego
