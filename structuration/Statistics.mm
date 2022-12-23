@@ -24,9 +24,12 @@
 <edge STYLE="bezier" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#32901d" CREATED="1671649599230" ID="ID_878935388" MODIFIED="1671650131393" POSITION="left" TEXT="Luck">
+<node COLOR="#32901d" CREATED="1671649599230" ID="ID_878935388" MODIFIED="1671821552434" POSITION="left" TEXT="Luck">
 <edge STYLE="bezier" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#32901d" CREATED="1671821611889" ID="ID_1953492252" MODIFIED="1671821667937" STYLE="fork" TEXT="Help the player to win more loots in chest and ...">
+<edge COLOR="#808080" STYLE="bezier" WIDTH="1"/>
+</node>
 </node>
 <node COLOR="#90541d" CREATED="1671649599231" ID="ID_617971139" MODIFIED="1671650131393" POSITION="left" TEXT="Wisdom">
 <edge STYLE="bezier" WIDTH="2"/>

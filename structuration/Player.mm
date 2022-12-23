@@ -79,6 +79,9 @@
 <node COLOR="#52a244" CREATED="1671649186467" ID="ID_1220656089" MODIFIED="1671651205654" TEXT="Durability">
 <edge WIDTH="1"/>
 </node>
+<node COLOR="#32901d" CREATED="1671822069066" ID="ID_92140950" MODIFIED="1671822110725" STYLE="fork" TEXT="Rank">
+<edge COLOR="#808080" STYLE="bezier" WIDTH="1"/>
+</node>
 </node>
 </node>
 </map>
