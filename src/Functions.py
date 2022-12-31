@@ -59,11 +59,12 @@ def generate_list_name(player_list):
     return [player.get_name() for player in player_list]
 
 
-def clear_output():
+def clear_output() -> None:
     if name == 'nt':
         system('cls')
     else:
         system('clear')
+
 
 def load_all_combine(CL, RL):
     i = 0
@@ -73,7 +74,8 @@ def load_all_combine(CL, RL):
             i+=1
     return i
 
-def display_player(Player_list, Name_list):
+
+def display_player(Player_list: list, Name_list: list) -> None:
     player = get_player(Player_list, Name_list)
 
     if player == 0:
@@ -82,4 +84,13 @@ def display_player(Player_list, Name_list):
         print("\n=============="+"="*(len(player.name)-1))
         print(f"Player name: {player.name}")
         print("--------------"+"-"*(len(player.name)-1))
+        print("Health Point: {}".format(player.stats["HP"]))
+        print("Mana Point: {}".format(player.stats["MP"]))
+        print("Strenght: {}".format(player.stats["STR"]))
+        print("Defense: {}".format(player.stats["DEF"]))
+        print("Agility: {}".format(player.stats["AG"]))
+        print("Dodge: {}".format(player.stats["DODG"]))
+        print("Intelligence: {}".format(player.stats["INT"]))
+        print("Wisdom: {}".format(player.stats["WIS"]))
+        print("Luck: {}".format(player.stats["LUK"]))
         print("=============="+"="*(len(player.name)-1)+"\n")
