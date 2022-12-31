@@ -1,5 +1,5 @@
 from Game.Database.Database import GameDB
-from Test import *
+from Functions import *
 
 
 if __name__ == '__main__':
