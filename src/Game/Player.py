@@ -28,7 +28,7 @@ class Player:
         self.race = race
         self.level = 0
         self.stat_point = 0
-        self.stats = {"HP": 100, "MP": 10, "STR": 1, "AG": 1, "INT": 1, "WIS": 1, "LUK": 1}
+        self.stats = {"HP": 100, "MP": 10, "STR": 1, "DEF":10, "AG": 1, "DODG": 1, "INT": 1, "WIS": 1, "LUK": 1}
         clan = None
     
     def __str__(self) -> str:
