@@ -15,7 +15,7 @@ if __name__ == '__main__':
     clear_output()
 
     while True:
-        choose = int(input("\n[1] - New character\n[2] - Remove a character\n[3] - Save changes\n[4] - Load Player\n[5] - Print all player\n[8] - See all Class Race combination\n[9] - Exit\n"))
+        choose = int(input("\n[1] - New character\n[2] - Remove a character\n[3] - Save changes\n[4] - Load Player\n[5] - Print all player\n[6] - Display a player\n[8] - See all Class Race combination\n[9] - Exit\n"))
         
         if choose == 1:
             add_player(Name_list, Player_list)
@@ -38,7 +38,7 @@ if __name__ == '__main__':
             print_all_player(Player_list)
         
         elif choose == 6:
-            pass
+            display_player(Player_list, Name_list)
 
         elif choose == 8:
             print(f"{load_all_combine(CLASS_LIST, RACE_LIST)} possilities")
