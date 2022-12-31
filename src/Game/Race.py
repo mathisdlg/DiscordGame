@@ -1,4 +1,4 @@
-RACE_LIST = ['Human', 'Elf', 'Dwarf', 'Vampire', 'Fairy', 'Leprechaun', 'Orc', 'Halfelin', 'Dragon', 'Robot', 'Cyborg', 'Zombie', 'Cyclops', 'Giant', 'Black Elf', 'Half-Demon']
+RACE_LIST = ['Human', 'Elf', 'Dwarf', 'Vampire', 'Fairy', 'Leprechaun', 'Orc', 'Halfelin', 'Dragon', 'Robot', 'Cyborg', 'Zombie', 'Cyclops', 'Giant', 'Black Elf', 'Half-Demon', 'Troll', 'Metamorph']
 
 def choose_race():
     while True:
