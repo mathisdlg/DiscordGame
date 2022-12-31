@@ -48,4 +48,4 @@ htmlcov/
 .vscode
 
 # database
-*.pickle
+#*.pickle allow it to have a test set
