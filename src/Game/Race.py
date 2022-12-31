@@ -13,7 +13,7 @@ def choose_race():
         elif race_ == 'h':
             display_races()
         else:
-            print("Invalid race: {} not found!".format(race_))
+            print(f"Invalid race: {race_} not found!")
 
 
 

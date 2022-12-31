@@ -13,7 +13,7 @@ def choose_class():
         elif class_ == 'h':
             display_classes()
         else:
-            print("Invalid class: {} not found!".format(class_))
+            print(f"Invalid class: {class_} not found!")
 
 
 
