@@ -16,8 +16,11 @@ def choose_name(Name_list):
 
 def add_player(Name_list, Player_list):
     name = choose_name(Name_list)
-            
+    
+    clear_output()        
     race_chooser = choose_race()
+    
+    clear_output()
     class_chooser = choose_class()
 
     Name_list.append(name)
@@ -32,6 +35,14 @@ def suppr_player(name_list, Player_list):
         name_list.remove(player_name)
         return 0
 
+def get_player(Player_list, Name_list):
+    while True:
+        name = input("Enter a player name: ")
+        if name in Name_list:
+            print("Player found!")
+            return Player_list[Name_list.index(name)]
+        else:
+            print("Player not found")
 
 def print_player(Player:Player):
     print(f"Player: {Player.get_name()} is level is {Player.get_level()} and he have {Player.get_stat_point()} stat points\n")
@@ -58,3 +69,13 @@ def load_all_combine(CL, RL):
             print(f"A {race_} of class: {class_}")
             i+=1
     return i
+
+def display_player(Player_list, Name_list):
+    player = get_player(Player_list, Name_list)
+
+    if player == 0:
+        return 0
+    else:
+        print("=============="+"="*len(player.name))
+        print(f"Player name: {player.name}")
+        print("=============="+"="*len(player.name))
