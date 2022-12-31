@@ -12,13 +12,13 @@ class GameDB:
         pass
     
     def connect(self, file_name):
-        if exists("donnes"):
-            if exists("donnes/"+file_name):
-                self.pick = open("donnes/"+file_name, "r+b")
+        if exists("data"):
+            if exists("data/"+file_name):
+                self.pick = open("data/"+file_name, "r+b")
                 return 0
         else:
-            mkdir("donnes") 
-        self.pick = open("donnes/"+file_name, "w+b")
+            mkdir("data") 
+        self.pick = open("data/"+file_name, "w+b")
         self.save([])
         return 1
     
