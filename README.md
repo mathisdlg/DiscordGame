@@ -6,8 +6,20 @@
 
 -------------------------------------------
 
-My name is *mathis.dlg* and I work on a shell game on discord for my server
-This project work with the main and the library what I wrote
+To begin with, my name is *mathis.dlg* and I work on a shell game for my discord server I wan't also to publish it on Steam.  
+So the code I'm working on is a draft of the final project which will not be in Python.  
+It will certainly be in C++.  
+The coders who will help me on this project will have of course in game rewards and also their names in the page of the contributors (with what to contact them if it wishes it).
+
+-------------------------------------------
+
+## First of all, what is this game?
+
+This game will be an MMO RPG with a system of Class and Race ultra pushed for the moment there are more than 500 possibilities and I also wish to add trade, new race and class for even more customization.
+There should also be a huge map and plots allocated to each player who can improve to have the best village.
+But also clans that can make wars to elect the best clan.
+
+In fact this game is made to do what you want without restriction (or almost).
 
 -------------------------------------------
 
