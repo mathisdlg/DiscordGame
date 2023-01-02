@@ -1,4 +1,4 @@
-from Game.Player import Player
+from Game.Player.Player import Player
 
 STATE_LIST = ["opened", "closed", "invited", "complet"]
 

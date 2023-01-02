@@ -1,5 +1,5 @@
-from Game.Class import Class
-from Game.Race import Race
+from Game.Player.Class import Class
+from Game.Player.Race import Race
 
 class Player:
     """
