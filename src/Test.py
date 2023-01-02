@@ -1,7 +1,7 @@
-from Game.Class import Class, CLASS_LIST, choose_class
-from Game.Race import Race, RACE_LIST, choose_race
-from Game.Player import Player
-from Game.Skill import Skill
+from Game.Player.Class import Class, CLASS_LIST, choose_class
+from Game.Player.Race import Race, RACE_LIST, choose_race
+from Game.Player.Player import Player
+from Game.Player.Skill import Skill
 
 from os import system, name 
 
